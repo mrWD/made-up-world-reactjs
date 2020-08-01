@@ -1,0 +1,21 @@
+sudo: false
+
+language: node_js
+node_js:
+  - 12
+
+os: linux
+dist: trusty
+
+branches:
+  only:
+    - master
+
+deploy:
+  provider: heroku
+  strategy: api
+  app: made-up-world-reactjs
+  on:
+    repo: mrWD/made-up-world-reactjs
+  api_key:
+    secure: "5cf3d980-8fa4-4415-a13a-b1482e8d5dec"
