@@ -1,16 +1,12 @@
 sudo: false
-
 language: node_js
 node_js:
-  - 12
-
+- 12
 os: linux
 dist: trusty
-
 branches:
   only:
-    - master
-
+  - master
 deploy:
   provider: heroku
   strategy: api
@@ -18,4 +14,4 @@ deploy:
   on:
     repo: mrWD/made-up-world-reactjs
   api_key:
-    secure: "5cf3d980-8fa4-4415-a13a-b1482e8d5dec"
+    secure: W6wsmK/fCCwieRgaeFGH6yXjUc99sE1MuXYu9RE+9bLKV0SoM5I7Bjis2nH3ElvatsXipYPfCizY90+Y/5A1Ksj3A/N3WCWvjz6INXmRbXrxbAlWU0mxXhnxV4YGelDJlvF1rn4kIHlilqgM4tkh6qmsgTgSm//bhdQwLQixNXrNcvMT6YTfQ7K/E9WV+YPVC0d4lO9qH1onsnRwz5Xza12A/0IPVU67sfYf2oVMXafAWXblmgcILTv9aYjvbutCoeSmBKTqVipyTDRHZ8yjP3rGgm1lz60FjB84usJ4gaGlT9bv26oB4NaST9ELHT+hPnGtvOvxp0q3dJYK8wi2ToNg8celMeD/AzND/9nw2Lrld3rk+ibTkMAh6MRJqsLMucMH/FsDBErl1F0gn3/+9JeLB8SLiPM1bPTW3vfuqnkRs3HD9tVVw4ms39THmert3P0BUPo7Am4SN/8b0vrk8S6uTuvLklzJE7zi4BJD8VQ6W/t6Crxq3ttKE1s0sm31fNbcbCUM+XlZMATSNrISht5PxDL4cZtK9Ry/iW+SRtew9KUG4xvC5qaoaxiwUTU2bpfO+DjcPfaleJO3ensyOnYr4qb4NOp4TVkaSjJQChBuWt00k8l4Pk4Zt0Lii92oXUjXymx//+7EDk4Yb/Hun7UrMfGrUglSjmWqpy5soOs=
