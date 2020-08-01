@@ -1,0 +1,4 @@
+export const INCR_REQUEST_COUNT = 'INCR_REQUEST_COUNT';
+export const DECR_REQUEST_COUNT = 'DECR_REQUEST_COUNT';
+export const ADD_ERROR = 'ADD_ERROR';
+export const REMOVE_ERROR = 'REMOVE_ERROR';

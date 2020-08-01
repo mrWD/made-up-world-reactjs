@@ -1,0 +1,6 @@
+export const GET_USER_INFO = 'GET_USER_INFO';
+export const GET_USER_LIST = 'GET_USER_LIST';
+export const GET_IMAGE_DESTINATION = 'GET_IMAGE_DESTINATION';
+
+export const GET_PAGE_NUMBER = 'GET_PAGE_NUMBER';
+export const GET_PAGE_COUNT = 'GET_PAGE_COUNT';
