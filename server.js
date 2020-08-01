@@ -6,6 +6,8 @@ const app = express();
 
 const staticFileMiddleware = express.static(path.join(__dirname + '/build'));
 
+app.set('port', process.env.PORT || 8080);
+
 app.use(staticFileMiddleware);
 app.use(history({
   disableDotRule: true,
